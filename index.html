@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirect...</title>
+    <script>
+        const userLang = navigator.language || navigator.userLanguage;
+
+        if (userLang.toLowerCase().startsWith("fr")) {
+            window.location.href = "fr/index.html";
+        } else {
+            window.location.href = "en/index.html";
+        }
+    </script>
+</head>
+<body>
+    <noscript>
+        <div class="fr">
+            <p>Votre navigateur ne supporte pas les redirections automatiques ? Cliquez <a href="fr/index.html">ici</a>.</p>
+        </div>
+        <div class="en">
+            <p>Your browser doesn't support automatic redirection? Click <a href="en/index.html">here</a>.</p>
+        </div>
+    </noscript>
+</body>
+</html>

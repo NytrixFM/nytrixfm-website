@@ -1,0 +1,21 @@
+div.welcome {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+p.bio {
+    font-style: italic;
+    padding-left: 13%;
+}
+
+h1.welcome-NytrixFM {
+    font-style: oblique;
+    padding-left: 15%;
+    padding-top: 10%;
+    font-size: 50px;
+}
