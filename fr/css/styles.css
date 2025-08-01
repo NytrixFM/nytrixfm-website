@@ -1,28 +1,7 @@
 div.welcome {
-  background-image: url('bg-chaineytb.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  height: 250px; /* Hauteur de la bannière */
-  width: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: white;
-  font-size: 2em;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.7); /* Pour rendre le texte lisible */
-}
-
-div.welcome::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4); /* couche sombre */
-  z-index: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: white;
 }
 
 body {
