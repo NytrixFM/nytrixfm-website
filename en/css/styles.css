@@ -1,21 +1,47 @@
-div.welcome {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: normal;
-    color: white;
-}
-
 body {
-    background-color: black;
+    background-color: #0d0d0d;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
 }
 
-p.bio {
-    font-style: italic;
-    padding-left: 13%;
+div.welcome {
+    text-align: center;
+    margin-top: 10vh;
+    padding: 2rem;
+    background: linear-gradient(135deg, #1a1a1a, #2e2e2e);
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease-in-out;
+}
+
+div.welcome:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 25px rgba(255, 255, 255, 0.1);
 }
 
 h1.welcome-NytrixFM {
     font-style: oblique;
-    padding-left: 15%;
-    padding-top: 10%;
-    font-size: 50px;
+    font-size: 3rem;
+    margin: 0;
+    color: #00ffff;
+    transition: color 0.3s;
+}
+
+h1.welcome-NytrixFM:hover {
+    color: #66ffff;
+}
+
+p.bio {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 0 10%;
+    line-height: 1.6;
+    color: #ccc;
 }
