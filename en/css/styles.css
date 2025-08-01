@@ -6,9 +6,64 @@ body {
     padding: 0;
 }
 
-div.welcome {
+.fixedbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.elementsATleft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.elementsATleft p {
+    margin: 0;
+}
+
+.elementsATleft .point {
+    font-size: 2rem;
+    color: #00ffff;
+    margin: 0;
+    line-height: 1;
+}
+
+.elementsATright {
+    display: flex;
+    gap: 10px;
+}
+
+.elementsATright button {
+    background-color: #333;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.elementsATright button:hover {
+    background-color: #444;
+}
+
+.elementsATright a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.welcome {
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 15vh;
     padding: 2rem;
     background: linear-gradient(135deg, #1a1a1a, #2e2e2e);
     border-radius: 15px;
@@ -20,7 +75,7 @@ div.welcome {
     transition: all 0.3s ease-in-out;
 }
 
-div.welcome:hover {
+.welcome:hover {
     transform: scale(1.02);
     box-shadow: 0 6px 25px rgba(255, 255, 255, 0.1);
 }
@@ -44,4 +99,10 @@ p.bio {
     padding: 0 10%;
     line-height: 1.6;
     color: #ccc;
+}
+
+.elementsATleft a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
 }
